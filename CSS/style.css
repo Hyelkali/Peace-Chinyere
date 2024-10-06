@@ -34,12 +34,12 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 200px;
+    width: 180px;
     z-index: 10;
   }
   
   .nav-logo {
-    width: 100px;
+    width: 80px;
     border-radius: 50%;
     margin-bottom: 20px;
   }
@@ -102,7 +102,7 @@ body {
     .navbar {
       position: fixed;
       bottom: 0;
-      width: 100%;
+      width: 80%;
       margin-top: 90vh;
       height: 60px;
       flex-direction: row;
@@ -113,7 +113,7 @@ body {
     .navbar a {
       padding: 10px;
       text-align: center;
-      width: 50px; /* Width for icon links */
+      width: 40px; /* Width for icon links */
     }
   
     .navbar span {
@@ -142,8 +142,8 @@ body {
     .navbar a:hover, .navbar a.active {
       background-color: #2980b9;
       border-radius: 50%;
-      width: 50px; /* Fixed size for hover state */
-      height: 50px; /* Fixed size for hover state */
+      width: 40px; /* Fixed size for hover state */
+      height: 40px; /* Fixed size for hover state */
       display: flex;
       justify-content: center;
       align-items: center;
