@@ -106,7 +106,7 @@ footer p {
     height: 60px;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0;
+    padding: 8px;
     margin: 0; /* Remove extra space */
   }
 
