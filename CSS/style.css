@@ -111,7 +111,8 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
     padding: 8px;
-    margin: 0; /* Remove extra space */
+    margin-top: 4px; /* Remove extra space */
+    margin-bottom: 4px;
   }
 
   .navbar a {
