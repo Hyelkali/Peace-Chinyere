@@ -20,7 +20,8 @@
 
     /* Layout for desktop and mobile */
     .contact-container {
-        width: 80%;
+      width: 100%;
+      margin-top: 50px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -32,7 +33,6 @@
     @media(min-width: 768px) {
       .contact-container {
         flex-direction: row;
-        color: #0000;
       }
 
       .contact-image {
@@ -41,9 +41,7 @@
       }
 
       .contact-image img {
-        width: 50%;
-        height: 40vh;
-        border-radius: 10px;
+        border-radius: 60px;
       }
 
       .contact-content {
@@ -89,7 +87,7 @@
         background-size: cover;
         background-position: center;
         padding: 60px 20px;
-        color: black;
+        color: white;
       }
 
       section#contact h2, section#contact p {
@@ -100,8 +98,13 @@
       .contact-form {
         background-color: rgba(255, 255, 255, 0.8); /* Transparent background for the form */
       }
+      .contact-image img {
+        margin-top: -20px;
+        border-radius: 60px;
+        width: 100%;
+      }
     }
-
+    
     /* Footer Styling */
     footer {
       text-align: center;
@@ -116,7 +119,7 @@
     footer p {
       margin: 0;
     }
-      
+     
   </style>
 </head>
 <body>
