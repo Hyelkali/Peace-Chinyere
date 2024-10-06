@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peace Chinyere - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(./Image/img2.jpg);
+      background-size: cover;
+    }
+    
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2.5rem;
+      color: #3498db;
+      animation: fadeIn 1.5s ease;
+    }
+
+    /* Skills Section */
+    #skills {
+      margin: 50px auto;
+      padding: 20px;
+      max-width: 1200px;
+    }
+
+    #skills ul {
+      display: flex;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      animation: slideIn 2s ease-in-out;
+    }
+
+    #skills li {
+      background-color: #ffffff;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      flex: 1;
+      margin: 0 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #skills li:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    #skills li i {
+      font-size: 3rem;
+      color: #3498db;
+      margin-bottom: 15px;
+      animation: popUp 1.5s ease-in-out;
+    }
+
+    #skills li:hover i {
+      color: #2980b9;
+    }
+
+    #skills li p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      #skills ul {
+        display: block;
+      }
+
+      #skills li {
+        margin-bottom: 30px;
+      }
+    }
+
+    /* Keyframes for Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes popUp {
+      from {
+        transform: scale(0.5);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <!-- Updated Navigation with Image -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <img src="./Image/img1.jpg" alt="Logo" class="nav-logo">
+    </div>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="business.html"><i class="fas fa-briefcase"></i> Business</a>
+    <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+    <!-- Section 1: About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Peace Chinyere, and I am a computer science student at CEAP. I am passionate about learning and applying the principles of software development, with a special interest in building user-friendly and efficient web applications.</p>
+      </section>
+    
+      <!-- Section 2: Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <i class="fas fa-code"></i>
+            <p>HTML: Proficient in creating structured and semantic web pages.</p>
+          </li>
+          <li>
+            <i class="fas fa-paint-brush"></i>
+            <p>CSS: Experienced in designing visually appealing and responsive layouts.</p>
+          </li>
+          <li>
+            <i class="fas fa-laptop-code"></i>
+            <p>JavaScript: Skilled in adding interactivity and dynamic features to websites.</p>
+          </li>
+          <li>
+            <i class="fas fa-server"></i>
+            <p>PHP: Capable of building backend logic and database-driven applications.</p>
+          </li>
+          <li>
+            <i class="fas fa-database"></i>
+            <p>MySQL: Knowledgeable in managing databases and performing queries for web projects.</p>
+          </li>
+        </ul>
+      </section>
+    
+      <!-- Section 3: Projects -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my latest web development projects:</p>
+        <ul>
+          <li><strong>Portfolio Website</strong>: Designed and developed a personal portfolio to showcase my skills and projects.</li>
+          <li><strong>Non-Profit Payment System</strong>: Implemented a secure payment system for a non-profit organization, allowing users to make donations efficiently.</li>
+          <li><strong>Responsive Web Application</strong>: Built a fully responsive web application, ensuring seamless functionality across devices.</li>
+        </ul>
+      </section>
+    
+      <footer>
+        <p>&copy; 2024 Peace Chinyere</p>
+      </footer>   
+
+  <script src="js/script.js"></script>
+</body>
+</html>
